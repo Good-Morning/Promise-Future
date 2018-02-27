@@ -1,0 +1,96 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="additional_promise_test.cpp">
+      <Filter>Tests\PromiseTests</Filter>
+    </ClCompile>
+    <ClCompile Include="multipromise_test.cpp">
+      <Filter>Tests\PromiseTests</Filter>
+    </ClCompile>
+    <ClCompile Include="promise_test.cpp">
+      <Filter>Tests\PromiseTests</Filter>
+    </ClCompile>
+    <ClCompile Include="spec_classes_test.cpp">
+      <Filter>Tests\PromiseTests</Filter>
+    </ClCompile>
+    <ClCompile Include="flatten_unwrap_test.cpp">
+      <Filter>Tests\FlattenTests</Filter>
+    </ClCompile>
+    <ClCompile Include="flatten_collection_test.cpp">
+      <Filter>Tests\FlattenTests</Filter>
+    </ClCompile>
+    <ClCompile Include="additional_map_test.cpp">
+      <Filter>Tests\MapTests</Filter>
+    </ClCompile>
+    <ClCompile Include="ThreadPool.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="Storage.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="flatten_tuple_test.cpp">
+      <Filter>Tests\FlattenTests</Filter>
+    </ClCompile>
+    <ClCompile Include="additional_parallel_test.cpp">
+      <Filter>Tests\ParallelTests</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="pch.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="ThreadPool.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="flatten.h">
+      <Filter>Headers\ImplementHeaders</Filter>
+    </ClInclude>
+    <ClInclude Include="future.h">
+      <Filter>Headers\ImplementHeaders</Filter>
+    </ClInclude>
+    <ClInclude Include="map.h">
+      <Filter>Headers\ImplementHeaders</Filter>
+    </ClInclude>
+    <ClInclude Include="subfuture.h">
+      <Filter>Headers\ImplementHeaders</Filter>
+    </ClInclude>
+    <ClInclude Include="BasicCollectionMethods.h">
+      <Filter>Headers\ImplementHeaders</Filter>
+    </ClInclude>
+    <ClInclude Include="Parallel.h">
+      <Filter>Headers\ImplementHeaders</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Sources">
+      <UniqueIdentifier>{5d0a0db0-abf6-4b6e-a6cf-4c4a388646ab}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Headers">
+      <UniqueIdentifier>{78a75b8d-4c67-453a-87fe-d1aaf6916886}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resources">
+      <UniqueIdentifier>{b3125c55-719c-425a-800e-cf735302cccd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Tests">
+      <UniqueIdentifier>{b9379e78-d12c-4688-ab4b-60d20133fa7b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Tests\PromiseTests">
+      <UniqueIdentifier>{f0cd44f2-92af-4b23-9bc5-dd37fb339035}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Tests\FlattenTests">
+      <UniqueIdentifier>{194d93e9-6826-40d5-ae4a-0db0178c213c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Tests\MapTests">
+      <UniqueIdentifier>{43171548-4fe1-4e9b-8d4a-ecea7527af46}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Headers\ImplementHeaders">
+      <UniqueIdentifier>{f3442ac2-12dd-47ac-b383-21bb9a47c1db}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Tests\ParallelTests">
+      <UniqueIdentifier>{c2bb8f2a-042d-4ce6-8afe-d41cb2abc51d}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
